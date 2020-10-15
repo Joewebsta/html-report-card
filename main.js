@@ -8,5 +8,10 @@ function changeName() {
    studentSpans.forEach(student => student.innerText = 'Joe Webster');
 }
 
+function changeGrade() {
+  gradeSpans.forEach(grade => grade.innerText = 'A+');
+}
+
 changeNameBtn.addEventListener('click', changeName);
+changeGradeBtn.addEventListener('click', changeGrade);
 
